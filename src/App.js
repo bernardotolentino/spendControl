@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div id="header">
-      <h1>Mondial Money</h1>
+      <h1>Spend Contol</h1>
       <BrowserRouter>
         <Switch>
           <Route>

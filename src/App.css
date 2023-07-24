@@ -2,20 +2,23 @@
   text-align: center;
 }
 
-#log {
+#login {
   text-align: center;
-  background-color:#6610f2; 
-  sm: 540px;
-  md: 720px;
-  lg: 960px;
-  xl: 1140px;
-  xxl: 1320px;
-
+  background-color:#866ba0; 
+  
 }
 
 #header{
   text-align: center;
-  background-color: #6610f2;
+  background-color: #f29810;
+  align-items: center;
+  background-color: #f29810;;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
 
 }
 
