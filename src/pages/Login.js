@@ -54,7 +54,7 @@ class Login extends React.Component {
   render() {
     const { email, password, disabled } = this.state;
     return (
-      <div id="log">
+      <div class ="form-group">
         <Card>
           <form className="login">
 
@@ -68,7 +68,8 @@ class Login extends React.Component {
                 data-testid="email-input"
                 onChange={ this.handleChange }
               />
-            </label>
+            </label> <br></br>
+            <br></br>  
             <label htmlFor="input-password">
               SENHA:
               <input

@@ -1,5 +1,5 @@
 {
-  "name": "spendControl",
+  "name": "spendControl-2022",
   "version": "1.0.0",
   "private": true,
   "engines": {
@@ -35,7 +35,7 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
   "browserslist": {
     "production": [
       ">0.2%",

@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.h1 {
+  font-size: larger;
+}
 #login {
   text-align: center;
   background-color:#866ba0; 
@@ -10,16 +12,25 @@
 
 #header{
   text-align: center;
+  margin: 1cm;
   background-color: #f29810;
   align-items: center;
-  background-color: #f29810;;
-  color: white;
+  background-color: #f29810;
+  color: black;
   display: flex;
   flex-direction: column;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(22px );
   justify-content: center;
   min-height: 100vh;
+  padding: 2px;
+}
 
+.card{
+  background-color: #f29810;
+  padding: 2px;
+  margin: 35px;
+  
+  
 }
 
 .App-logo {
@@ -36,6 +47,7 @@
 
 .App-header {
   align-items: center;
+  
   background-color: #282c34;
   color: white;
   display: flex;
