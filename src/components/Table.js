@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { deleteExpense, editExpense } from '../redux/actions';
+import Table from 'react-bootstrap/Table';
+
 
 // terminado com a ajuda de victor monitor
 
-class Table extends Component {
+class Table2 extends Component {
   handleDelete = ({ target }) => {
     const { id, name } = target;
 
@@ -25,18 +27,18 @@ class Table extends Component {
   render() {
     const { expenses } = this.props;
     return (
-      <table>
+      <Table striped bordered hover>
         <thead>
           <tr>
-            <th>Descrição //</th>
-            <th>Tag //</th>
-            <th>Método de pagamento //</th>
-            <th>Valor //</th>
-            <th>Moeda //</th>
-            <th>Câmbio utilizado //</th>
-            <th>Valor convertido //</th>
-            <th>Moeda de conversão //</th>
-            <th>Editar/Excluir //</th>
+            <th>Descrição </th>
+            <th>Tag </th>
+            <th>Método de pagamento </th>
+            <th>Valor </th>
+            <th>Moeda </th>
+            <th>Câmbio utilizado </th>
+            <th>Valor convertido </th>
+            <th>Moeda de conversão </th>
+            <th>Editar/Excluir </th>
           </tr>
         </thead>
         <tbody>
@@ -86,7 +88,7 @@ class Table extends Component {
             ))
           }
         </tbody>
-      </table>
+      </Table>
     );
   }
 }
@@ -99,4 +101,4 @@ Table.propTypes = {
   expenses: PropTypes.array,
 }.isRequired;
 
-export default connect(mapStateToProps)(Table);
+export default connect(mapStateToProps)(Table2);
